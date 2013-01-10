@@ -1,0 +1,18 @@
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <!--
+  <remove-node path="/api/package[@name='net.simonvt.widget']/class[@name='CalendarView.WeekView']" />
+  <remove-node path="/api/package[@name='net.simonvt.widget']/class[@name='CalendarView.WeeksAdapter']" /> 
+  <attr path="/api/package[@name='net.simonvt.widget']/class[@name='CalendarView.WeekView']" name="visibility">public</attr>
+  <attr path="/api/package[@name='net.simonvt.widget']/class[@name='CalendarView.WeeksAdapter']" name="visibility">public</attr>-->
+  <attr path="/api/package[@name='net.simonvt.widget']/interface[@name='CalendarView.OnDateChangeListener']/method[@name='onSelectedDayChange']/parameter[@name='p0']" name="name">view</attr>
+  <attr path="/api/package[@name='net.simonvt.widget']/interface[@name='CalendarView.OnDateChangeListener']/method[@name='onSelectedDayChange']/parameter[@name='p1']" name="name">year</attr>
+  <attr path="/api/package[@name='net.simonvt.widget']/interface[@name='CalendarView.OnDateChangeListener']/method[@name='onSelectedDayChange']/parameter[@name='p2']" name="name">month</attr>
+  <attr path="/api/package[@name='net.simonvt.widget']/interface[@name='CalendarView.OnDateChangeListener']/method[@name='onSelectedDayChange']/parameter[@name='p3']" name="name">dayOfMonth</attr>
+</metadata>

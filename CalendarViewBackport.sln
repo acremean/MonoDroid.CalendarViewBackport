@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarViewBackport", "CalendarViewBackport\CalendarViewBackport.csproj", "{62E8C71D-F10C-487B-86FE-B494E950846B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCalendarViewBackport", "TestCalendarViewBackport\TestCalendarViewBackport.csproj", "{A3B9FFA3-994F-4F43-AA8B-AB46922A6FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E8C71D-F10C-487B-86FE-B494E950846B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E8C71D-F10C-487B-86FE-B494E950846B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E8C71D-F10C-487B-86FE-B494E950846B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E8C71D-F10C-487B-86FE-B494E950846B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B9FFA3-994F-4F43-AA8B-AB46922A6FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B9FFA3-994F-4F43-AA8B-AB46922A6FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B9FFA3-994F-4F43-AA8B-AB46922A6FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B9FFA3-994F-4F43-AA8B-AB46922A6FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TestCalendarViewBackport\TestCalendarViewBackport.csproj
+	EndGlobalSection
+EndGlobal
